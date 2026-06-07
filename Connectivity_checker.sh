@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Enter a Host name or Adress: " HOST
-OUTPUT_FILE="C:\Program Files (x86)\Google\Chrome\Application\Connectivity_check_results.txt"
+OUTPUT_FILE="\C:\Users\server\Documents\connectivity\connection_check.txt"
 
 #Check if the host is reachable
 if ping -c 1 $HOST &> /dev/null
